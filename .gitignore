@@ -1,0 +1,14 @@
+# Build artifacts produced by scripts/build-parser.sh. The grammar and its
+# queries live in davidawad/tree-sitter-litigate, which is the single source
+# of truth for both -- a committed copy here is a copy that drifts.
+parser/
+queries/litigate/
+
+# node/npm leftovers (this repo has no package.json)
+node_modules/
+
+# Linked git worktrees created during development
+.worktrees/
+
+# Editor / OS cruft
+.DS_Store
